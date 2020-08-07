@@ -1,17 +1,16 @@
 package com.macro.mall.tiny.controller;
 
-        import com.macro.mall.tiny.common.api.CommonPage;
-        import com.macro.mall.tiny.common.api.CommonResult;
-        import com.macro.mall.tiny.mbg.model.PmsBrand;
-        import com.macro.mall.tiny.service.PmsBrandService;
-        import org.slf4j.Logger;
-        import org.slf4j.LoggerFactory;
-        import org.springframework.beans.factory.annotation.Autowired;
-        import org.springframework.stereotype.Controller;
-        import org.springframework.validation.BindingResult;
-        import org.springframework.web.bind.annotation.*;
-
-        import java.util.List;
+import com.macro.mall.tiny.common.api.CommonPage;
+import com.macro.mall.tiny.common.api.CommonResult;
+import com.macro.mall.tiny.mbg.model.PmsBrand;
+import com.macro.mall.tiny.service.PmsBrandService;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.*;
+import java.util.List;
 
 
 /**
